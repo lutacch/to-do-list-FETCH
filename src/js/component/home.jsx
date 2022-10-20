@@ -16,8 +16,8 @@ const borrar = (id) => {
 	setListaTareas(listaFiltrada);
 } 
 	return (
-		<div className="text-center">
-		<h1>TO DO LIST</h1>
+		<div className="box text-center">
+		<h1 className="title">TO DO LIST</h1>
 		<h3><Tareas
 		nuevaTarea={nuevaTarea}
 		/></h3>	

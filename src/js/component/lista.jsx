@@ -10,7 +10,7 @@ const Lista = (props) => {
     return (
         <div>
             <span>{props.tarea}</span>
-            <span onClick={borrarTarea}>Borrar</span>
+            <button className="btn-danger" onClick={borrarTarea}><strong>X</strong></button>
 
         </div>    
     );

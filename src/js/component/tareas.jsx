@@ -17,10 +17,10 @@ const Tareas = (props) => {
 
     return (
         <div>
-            <form onSubmit={submit}>
-                <span>Añadir tarea</span>
+            <form className="formulario" onSubmit={submit}>
+                <span className="span me-2">Añadir tarea ...</span>
                 <input value={inputText} onChange={manejarFormulario}></input>
-                <button>Agregar</button>
+                <button className="btn-dark">Agregar</button>
             </form>
         </div>
 

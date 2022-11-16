@@ -1,6 +1,6 @@
 import React, {useState} from "react";
-import Tareas from "/workspace/to-do-list-2/src/js/component/tareas.jsx"
-import Lista from "/workspace/to-do-list-2/src/js/component/lista.jsx"
+import Tareas from "/workspace/to-do-list-FETCH/src/js/component/tareas.jsx"
+import Lista from "/workspace/to-do-list-FETCH/src/js/component/lista.jsx"
 
 
 const Home = () => {
